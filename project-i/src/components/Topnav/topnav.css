@@ -1,0 +1,133 @@
+.topnavfull{
+    width: 100%;
+    height: 6vh;
+    background-color:#ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.topselect{
+    display: flex;
+    height: 4vh;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+
+}
+.topselect p{
+    font-weight:700;
+    padding-right: 15px;
+    font-size: 14px;
+}
+.topselect select{
+    border-radius: 5px;
+    padding-block: 5px;
+    padding-right: 5px;
+    border: 1px solid #5a57fe;
+    height:4vh;
+    color: gray;
+
+
+}
+.topprofile{
+    width: 27%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topprofile svg{
+    fill: black;
+}
+.topname{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+}
+.topname label{
+    margin-left:5px ;
+}
+.topname p{
+    font-size: 13px;
+    color: gray;
+}
+.topname h5,.topname p{
+    margin: 0%;
+}
+.topname img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .topnavfull{
+        width: 100%;
+        height: 6vh;
+        /* background-color:#ffffff; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .topselect{
+        display: flex;
+        height: 5vh;
+        align-items: center;
+        justify-content: center;
+        padding-left: 10px;
+        width: 50%;
+    }
+    .topselect p{
+        font-weight:700;
+        font-size: 14px;
+    }
+    .topselect select{
+        border-radius: 5px;
+        padding-block: 5px;
+        padding-right: 5px;
+        border: 1px solid #5a57fe;
+        height:4vh;
+        color: gray;
+    
+    
+    }
+    .topprofile{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .topprofile svg{
+        fill: black;
+        display: none;
+    }
+    .topname{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .topname label{
+        margin-left:5px ;
+    }
+    .topname p{
+        font-size: 10px;
+        color: gray;
+    }
+    .topname h5,.topname p{
+        margin: 0%;
+    }
+    .topname img{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+    }
+
+
+
+}

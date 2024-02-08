@@ -1,0 +1,234 @@
+.signfull{
+    width: 100%;
+    height: 100vh;
+    background-color:#d5dbe6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signpage{
+    width: 70%;
+    height: 75vh;
+    background-color: aqua;
+    border-radius: 10px;
+    border: 1px solid gray;
+    display: flex;
+}
+.signcontent{
+    width: 50%;
+    height: 100%;
+    
+    background-color: #ffffff;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.signcontent h3{
+    font-weight:700;
+    font-size: 30px;
+}
+.signcontent p{
+    color: rgb(21, 20, 20);
+    font-size: 14px;
+}
+.signlogo{
+    width: 35%;
+    height: 6vh;
+    display: flex;
+    justify-content: space-around;
+}
+.signlogo img{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 50%;padding: 5px;
+}
+.signcontent label input{
+    width: 220px;
+    height: 4vh;
+    border: none;
+    outline: none;
+    background-color: #ece2e2;
+    padding-left: 10px;
+    border-radius: 5px;
+    
+}
+#input{
+    margin-top: 18px;
+    
+}
+.signcontent label p{
+    letter-spacing: 0px;
+    font-weight:500;
+    font-size:12px;
+}
+.signcontent button{
+    width: 30%;
+    height: 4.5vh;
+    border: none;
+    background-color:#5a57fe;
+    color: #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.signboard{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5a57fe;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    color: #ffffff;
+}
+
+.signboard h4{
+    font-size: 25px;
+    font-weight: 700;
+
+}
+.signboard p{
+    margin-top: -5px;
+}
+.signboard button{
+    width: 30%;
+    height: 4.5vh;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    background-color: #5a57fe;
+    
+    border-radius: 20px;
+    cursor: pointer;
+}
+#Link{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+
+/* phone media quary */
+@media screen and (max-width: 600px) {
+    .signfull{
+        width: 100%;
+        height: 100vh;
+        background-color:#d5dbe6;
+        
+    }
+    .signpage{
+        width: 100%;
+        height: 100vh;
+        background-color:#5a57fe;
+        border-radius: 10px;
+        border: 1px solid gray;
+        display: flex;
+        flex-direction: column;
+    }
+    .signcontent{
+        width: 100%;
+        height: 70%;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        order: 2;
+    
+    
+    }
+    .signcontent h3{
+        font-weight:700;
+        font-size: 30px;
+    }
+    .signcontent p{
+        color: rgb(21, 20, 20);
+        font-size: 14px;
+    }
+    .signlogo{
+        width: 35%;
+        height: 6vh;
+        display: flex;
+        justify-content: space-around;
+    }
+    .signlogo img{
+        width: 20px;
+        height: 20px;
+        border: 1px solid black;
+        border-radius: 50%;padding: 5px;
+    }
+    .signcontent label input{
+        width: 220px;
+        height: 4vh;
+        border: none;
+        outline: none;
+        background-color: #ece2e2;
+        padding-left: 10px;
+        border-radius: 5px;
+        
+    }
+    #input{
+        margin-top: 18px;
+        
+    }
+    .signcontent label p{
+        letter-spacing: 0px;
+        font-weight:500;
+        font-size:12px;
+    }
+    .signcontent button{
+        width: 30%;
+        height: 4.5vh;
+        border: none;
+        background-color:#5a57fe;
+        color: #ffffff;
+        border-radius: 20px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    .signboard{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #5a57fe;
+        color: #ffffff;
+        order:1;
+    }
+    
+    .signboard h4{
+        font-size: 25px;
+        font-weight: 700;
+    
+    }
+    .signboard p{
+        margin-top: -5px;
+    }
+    .signboard button{
+        width: 30%;
+        height: 4.5vh;
+        border: 1px solid #ffffff;
+        color: #ffffff;
+        background-color: #5a57fe;
+        
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    #Link{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+}

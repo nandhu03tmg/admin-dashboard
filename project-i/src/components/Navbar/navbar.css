@@ -1,0 +1,218 @@
+.navfull{
+    min-width:100%;
+
+    height: 100vh;
+    background-color:#f2f5fd;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
+
+
+.navfull .navpage{
+    width:90%;
+    height: 99%;
+    background-color:#5a57fe;
+    border-radius: 30px;
+    margin-left: 2px;
+    
+
+}
+.navpage .navheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:20%;
+
+}
+.navcontent label{
+    height:4.4vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.navheadcontent{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.navheader h1{
+    font-size: 60px;
+    font-weight: 500;
+}
+.navheadcontent p{
+    margin-top:34px;
+    font-weight: 700;
+}
+.navcontent{
+    width: 100%;
+    height: 57%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left !important;
+
+}
+
+/* .hover:hover ~ .hover1{
+    color: #fff;
+    fill:#fff;
+}
+.hover1:hover ~ .hover{
+    fill: #fff;
+} 
+
+.hover1:hover{
+    color: #fff;
+} */
+
+/* .navhover p:hover + .navhover svg{
+} */
+
+.navcontent p,.navfooter p{
+    margin: 0%;
+    padding: 0%;
+    font-weight: 500;
+}
+.navfooter{
+    width: 100%;
+    height: 23%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    color: #ffffff;
+}
+
+#dashlink{
+    margin: 0%;
+    padding: 0%;
+    font-weight: 500;
+    color: #dbdcf3;
+    text-decoration: none;
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+
+}
+.navcontent svg,.navfooter svg{
+    fill: #e0e1f5;
+    padding-right: 10px;
+}
+
+/* phone quary */
+@media screen and (max-width: 768px) {
+    .navfull{
+        width:80%;
+        height: 100vh;
+        background-color:#f2f5fd;
+        display: flex;
+        justify-content:left;
+        align-items: center;
+        position:sticky;
+        top: 0%;
+
+    }
+    
+    
+    .navfull .navpage{
+        width:70%;
+        height: 99%;
+        background-color:#5a57fe;
+        border-radius: 10px;
+        margin-left: 3px;
+        
+    
+    }
+    .navpage .navheader{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height:20%;
+    
+    }
+    .navheadcontent{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+    .navheader h1{
+        font-size: 60px;
+        font-weight: 500;
+    }
+    .navheadcontent p{
+        margin-top:34px;
+        font-weight: 700;
+        display: none;
+    }
+    .navcontent{
+        width: 100%;
+        height: 57%;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: left !important;
+    
+    }
+    .navfooter label{
+        height:4.4vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+    }
+    
+    .navcontent p,.navfooter p{
+        margin: 0%;
+        padding: 0%;
+        font-weight: 500;
+        display: none;
+    }
+    .navfooter{
+        width: 100%;
+        height: 23%;
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        color: #ffffff;
+    }
+    .navfooter p{
+        display: none;
+        
+
+    }
+    #dashlink{
+        margin: 0%;
+        padding: 0%;
+        font-weight: 500;
+        color: #ffffff;
+        text-decoration: none;
+        display: flex;
+        padding-left: 10px;
+        align-items: center;
+        
+    
+    }
+    .navcontent svg{
+    fill: #e0e1f5;
+    }
+    .navcontent svg:hover{
+        fill: #fff;
+        }
+
+
+}

@@ -1,0 +1,224 @@
+.loginfull{
+    width: 100%;
+    height: 100vh;
+    background-color:#d5dbe6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginpage{
+    width: 70%;
+    height: 75vh;
+    background-color: aqua;
+    border-radius: 10px;
+    border: 1px solid gray;
+    display: flex;
+}
+.logincontent{
+    width: 50%;
+    height: 100%;
+    
+    background-color: #ffffff;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.logincontent h3{
+    font-weight:700;
+}
+.logincontent p{
+    color: rgb(21, 20, 20);
+    font-size: 14px;
+}
+.loginlogo{
+    width: 35%;
+    height: 6vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.loginlogo img{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+}
+.logincontent label input{
+    width: 220px;
+    height: 4vh;
+    border: none;
+    outline: none;
+    background-color: #ece2e2;
+    padding-left: 10px;
+    border-radius: 5px;
+    
+}
+#input{
+    margin-top: 18px;
+}
+.logincontent label p{
+    letter-spacing: 0px;
+    font-weight:500;
+    font-size:12px;
+}
+.logincontent button{
+    width: 30%;
+    height: 4.5vh;
+    border: none;
+    background-color:#5a57fe;
+    color: #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.loginboard{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5a57fe;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #ffffff;
+}
+
+.loginboard h4{
+    font-size: 25px;
+    font-weight: 700;
+
+}
+.loginboard button{
+    width: 30%;
+    height: 4.5vh;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    background-color: #5a57fe;
+    
+    border-radius: 20px;
+    cursor: pointer;
+}
+#Link{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+/* Phone media quary */
+@media screen and (max-width: 600px) {
+    .loginfull{
+        width: 100%;
+        height: 100vh;
+        background-color:#d5dbe6;
+       
+    }
+    .loginpage{
+        width: 100%;
+        height: 100vh;
+        background-color: aqua;
+        display: flex;
+        flex-direction: column;
+    }
+    .logincontent{
+        width: 100%;
+        height:70%;
+        
+        background-color: #ffffff;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    
+    }
+    .logincontent h3{
+        font-weight:700;
+    }
+    .logincontent p{
+        color: rgb(21, 20, 20);
+        font-size: 14px;
+    }
+    .loginlogo{
+        width: 35%;
+        height: 6vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .loginlogo img{
+        width: 20px;
+        height: 20px;
+        border: 1px solid black;
+        border-radius: 50%;
+        padding: 5px;
+    }
+    .logincontent label input{
+        width: 220px;
+        height: 4vh;
+        border: none;
+        outline: none;
+        background-color: #ece2e2;
+        padding-left: 10px;
+        border-radius: 5px;
+        
+    }
+    #input{
+        margin-top: 18px;
+    }
+    .logincontent label p{
+        letter-spacing: 0px;
+        font-weight:500;
+        font-size:12px;
+    }
+    .logincontent button{
+        width: 30%;
+        height: 4.5vh;
+        border: none;
+        background-color:#5a57fe;
+        color: #ffffff;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .loginboard{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #5a57fe;
+        color: #ffffff;
+    }
+    
+    .loginboard h4{
+        font-size: 25px;
+        font-weight: 700;
+        margin: 0%;
+    
+    }
+    .loginboard button{
+        width: 30%;
+        height: 4.5vh;
+        border: 1px solid #ffffff;
+        color: #ffffff;
+        background-color: #5a57fe;
+        
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    #Link{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+  }
+

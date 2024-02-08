@@ -1,0 +1,361 @@
+.dashfull{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.dashcontent{
+    width: 80%;
+    height: 100vh;
+    background-color: #f2f5fd;
+    
+}
+.dashmain{
+    width: 95%;
+}
+.dashgraphs{
+    width: 100%;
+    height: 35vh;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:2%;
+}
+.dashgraph1{
+    width: 25%;
+    height: 100%;
+    background-color:#ffffff;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); */
+
+}
+.dashgraph2{
+    width: 25%;
+    height: 100%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: #ffffff;
+
+}.dashgraph3{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.dashgraph1 h2,.dashgraph1 p,.dashgraph2 h2,.dashgraph2 p,.dashgraph3 h2,.dashgraph3 P{
+    margin: 0%;
+    padding: 0%;
+    padding-left: 10px;
+}
+.dashgraphs p{
+    color: #a5baf4;
+}
+.dashgraph1image{
+    width: 111%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items:start;
+    margin: -14px;
+}
+.dashgraph1 img,.dashgraph3 img{
+    padding: 0%;
+    margin-top: -13px;
+    width: 100%;
+    height:75%;
+   
+
+    
+}
+.dashgraphimg{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.dashgraph2 img{
+    height: 75%;
+    width: 100%;
+    border-radius: 10px;
+}
+.dashfooter{
+    width: 100%;
+    height: 45vh;
+    display:flex;
+    justify-content: space-between;
+}
+
+.dashfooter1{
+    width: 68%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.dashfoot1sub,.dashfoot2sub{
+    width: 100%;
+    height: 32vh;
+    background-color:#ffffff;
+    border-radius: 10px;
+    border: 1px solid gray;
+
+}
+.dashfooter2{
+    width: 28%;
+    height: 100%;
+
+}
+.dashfoot2sub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.dashfoot1_content1{
+    width: 90%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    
+}
+.dashfoot1_content1 label{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+}
+.dashfoot1_content1 label p{
+    text-align: left;
+    width: 60%;
+    font-weight: 600;
+}
+.dashfoot1_content1 {
+    font-weight: 600;
+
+}
+.dashfoot1_content1 label svg{
+    background-color: hsl(241, 100%, 67%);
+    padding: 10px;
+    border-radius: 10px;
+    fill:#fff;
+}
+.foot2sub2_content{
+    width: 75%;
+    height: 25%;
+}
+.foot2sub2_content label{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.foot2sub2_content p{
+    text-align: left;
+    width: 60%;
+    font-weight: 600;
+}
+.foot2sub2_content label svg{
+    background-color: #5855ff;
+    padding: 10px;
+    border-radius: 10px;
+    fill:#fff;
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .dashfull{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+    }
+    .dashcontent{
+        width: 80%;
+        height: 100vh;
+        background-color: #f2f5fd;
+        overflow: scroll;
+        
+    }
+    .dashmain{
+        width: 98%;
+    }
+    .dashgraphs{
+        width: 100%;
+        height: 80vh;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top:2%;
+    }
+    .dashgraph1{
+        width: 99%;
+        height: 30%;
+        background-color:#ffffff;
+        border: 1px solid gray;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); */
+    
+    }
+    .dashgraph2{
+        width: 99%;
+        height: 30%;
+        border: 1px solid gray;
+        border-radius: 10px;
+        background-color: #ffffff;
+    
+    }.dashgraph3{
+        width: 99%;
+        height:30%;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid gray;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .dashgraph1 h2,.dashgraph1 p,.dashgraph2 h2,.dashgraph2 p,.dashgraph3 h2,.dashgraph3 P{
+        margin: 0%;
+        padding: 0%;
+        padding-left: 10px;
+    }
+    .dashgraphs p{
+        color: #a5baf4;
+    }
+    .dashgraph1_content{
+        width: 100%;
+        height: 20%;
+        display: flex;
+    }
+    .dashgraph1_content h2{
+        font-size:20px;
+
+    }
+    .dashgraph1image{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 2px;
+    }
+    .dashgraph1 img,.dashgraph3 img{
+        padding: 0%;
+        width: 103%;
+        height:100%;
+       
+    
+        
+    }
+    .dashgraphimg{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .dashgraph2 img{
+        height: 75%;
+        width:90%;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .dashfooter{
+        width: 100%;
+        height: 70vh;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .dashfooter1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .dashfoot1sub,.dashfoot2sub{
+        width: 100%;
+        height: 32vh;
+        background-color:#ffffff;
+        border-radius: 10px;
+        border: 1px solid gray;
+    
+    }
+    .dashfooter2{
+        width: 100%;
+        height: 100%;
+    
+    }
+    .dashfoot2sub{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .dashfoot1_content1{
+        width: 90%;
+        height: 33%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    .dashfoot1_content1 label{
+        display: flex;
+        width: 60%;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 20px;
+    }
+    .dashfoot1_content1 label p{
+        text-align: left;
+        width: 60%;
+        font-weight: 600;
+    }
+    .dashfoot1_content1 {
+        font-weight: 600;
+    
+    }
+    .dashfoot1_content1 label svg{
+        background-color: #5855ff;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .foot2sub2_content{
+        width: 75%;
+        height: 25%;
+    }
+    .foot2sub2_content label{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .foot2sub2_content p{
+        text-align: left;
+        width: 60%;
+        font-weight: 600;
+    }
+    .foot2sub2_content label svg{
+        background-color: #5855ff;
+        padding: 10px;
+        border-radius: 10px;
+    
+    }
+}

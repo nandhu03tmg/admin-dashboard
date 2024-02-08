@@ -1,0 +1,116 @@
+.reportsfull{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+.reportscontent{
+    width: 80%;
+    height: 100%;
+    background-color: #f2f5fd;
+}
+.reportsmain{
+    width: 95%;
+    height: 100vh;
+}
+.reportslist{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.reportslist1{
+    width: 30%;
+    height: 90%;
+    border: 1px solid gray;
+    border-radius:10px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    background-color: #ffffff;
+}
+.reportslist1 p{
+    color: #5a57fe;
+    font-weight: 700;
+}
+.reportalalitics{
+    width: 100%;
+    height:55vh;
+}
+.reportalalitics h3{
+    margin: 0%;
+}
+.analyticsimage{
+    width: 100%;
+    height:50vh;
+    display: flex;
+}
+.analyticsimage img{
+    width: 80%;
+    height: 50vh;
+    margin-left: 20px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .reportsfull{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        overflow: hidden;
+    }
+    .reportscontent{
+        width: 80%;
+        height: 100%;
+        background-color: #f2f5fd;
+    }
+    .reportsmain{
+        width: 95%;
+        height: 100vh;
+    }
+    .reportslist{
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .reportslist1{
+        width: 95%;
+        height: 30%;
+        border: 1px solid gray;
+        border-radius:10px;
+        box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center ;
+        background-color: #ffffff;
+    }
+    .reportslist1 p{
+        color: #5a57fe;
+        font-weight: 700;
+    }
+    .reportalalitics{
+        width: 100%;
+        height:55vh;
+    }
+    .reportalalitics h3{
+        margin: 0%;
+    }
+    .analyticsimage{
+        width: 100%;
+        height:50vh;
+        display: flex;
+    }
+    .analyticsimage img{
+        width: 85%;
+        height: 17vh;
+        margin-left: 20px;
+    }
+}

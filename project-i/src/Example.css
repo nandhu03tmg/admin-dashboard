@@ -1,0 +1,44 @@
+/* src/PaginationDemo.css */
+
+.pagination-demo {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 5px;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pagination li {
+    margin: 0 5px;
+    display: inline-block;
+  }
+  
+  .pagination a {
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .pagination .active a {
+    background-color: #007bff;
+    color: #fff;
+  }
+  

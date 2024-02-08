@@ -1,0 +1,254 @@
+.settingfull{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.settingcontent{
+width: 80%;
+height: 100vh;
+background-color: #f2f5fd;
+}
+.settingprofile{
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.settingname{
+    display: flex;
+    width: 25%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.settingname label p,.settingname label h4{
+    margin: 0%;
+    padding: 0%;
+}
+.settingname label p{
+    font-size: 13px;
+    color: gray;
+}
+.settingname img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.settingprofile button{
+    height: 4.5vh;
+    width: 14%;
+    color: #ffffff;
+    background-color: #5a57fe;
+    border: none;
+    border-radius: 20px;
+
+}
+.setting_inputs{
+    width: 62%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.setting_inputs label{
+    display: flex;
+    flex-direction: column;
+}
+.setting_inputs label input{
+    width: 100%;
+    height: 4vh;
+    background-color: #d9d9d9;
+    border: none;
+    color: #d4d4d4;
+    padding-left:10px ;
+}
+.setting_email{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.setting_email label{
+    display: flex;
+    flex-direction: column;
+}
+.setting_email label input{
+    width: 350px;
+    height: 4vh;
+    background-color: #d9d9d9;
+    border: none;
+    color: #d4d4d4;
+    padding-left:10px ;
+}
+.setting_email button{
+    height: 4.5vh;
+    width: 14%;
+    color: #ffffff;
+    background-color: #5a57fe;
+    border: none;
+    border-radius: 20px;
+}
+.setting_password{
+    width: 62%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.setting_password label input{
+  width: 200px;
+  height: 4vh;
+  border: none;
+  background-color: #d4d4d4;
+  padding-left: 10px;
+  outline: none;
+}
+ .setting_password label svg{
+    fill: black;
+
+}
+.setting_eye{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color:#d4d4d4;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .settingfull{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+    }
+    .settingcontent{
+    width: 80%;
+    height: 100vh;
+    background-color: #f2f5fd;
+    }
+    .settingprofile{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 14px;
+    }
+    .settingname{
+        display: flex;
+        width: 65%;
+        height: 100%;
+        align-items: center;
+        justify-content:left;
+        
+    }
+    .settingname label p,.settingname label h4{
+        margin: 0%;
+        padding: 0%;
+    }
+    .settingname label p{
+        font-size: 13px;
+        color: gray;
+    }
+    .settingname img{
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+    }
+    .settingprofile button{
+        height: 4.5vh;
+        width: 30%;
+        color: #ffffff;
+        background-color: #5a57fe;
+        border: none;
+        border-radius: 20px;
+    
+    }
+    .setting_inputs{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .setting_inputs label{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        
+    }
+    .setting_inputs label input{
+        width:95%;
+        height: 4vh;
+        background-color: #d9d9d9;
+        border: none;
+        color: #d4d4d4;
+        padding-left:10px ;
+    }
+    .setting_email{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        justify-content:space-around;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .setting_email label{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .setting_email label input{
+        width:95%;
+        height: 4vh;
+        background-color: #d9d9d9;
+        border: none;
+        color: #d4d4d4;
+    }
+    .setting_email button{
+        height: 4.5vh;
+        width: 40%;
+        color: #ffffff;
+        background-color: #5a57fe;
+        border: none;
+        border-radius: 20px;
+
+    }
+    .setting_password{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .setting_password label input{
+      width:95%;
+      height: 4vh;
+      border: none;
+      background-color: #d4d4d4;
+      padding-left: 10px;
+      outline: none;
+    }
+     .setting_password label svg{
+        fill: black;
+    
+    }
+    .setting_eye{
+        width: 100%;
+        height:4vh;
+        display: flex;
+        align-items: center;
+        background-color:#d4d4d4;
+
+    }
+    
+}
